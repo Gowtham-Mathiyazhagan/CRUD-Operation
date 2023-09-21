@@ -1,0 +1,97 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Poppins:ital,wght@1,800&family=Roboto:wght@300&family=Style+Script&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+  div{
+    padding: 20px;
+    font-weight: bolder;
+}
+div input{
+    border-radius: 3px;
+    border: groove 2px;
+}
+form{
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    width:18rem ;
+}
+#btn{
+    display: flex;
+    justify-content: end;
+}
+#submit{
+    background-color: rgb(185, 188, 188);
+    border: none;
+}
+input{
+    display: block;
+    margin-top: 10px;
+    outline: none;
+    width: 100%;
+}
+#submit:hover{
+    background-color: palegreen;
+}
+
+/* #employee-detail{
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+#sec>td{
+    height: 20px;
+    width: 100px;
+    border: 1px solid ;
+    background-color: rgb(121, 120, 120);
+    padding: 5px;
+    margin: 2px;
+    
+ }
+/* .table tr{
+    display: flex;
+    flex-wrap: wrap;
+} */
+#tbody tr td{
+    height: 20px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#employee-detail{
+    margin-top: 10px;
+}
+#dle{
+    text-decoration: none;
+    color:  red;
+}
+#edi{
+    text-decoration: none;
+    color: green;
+}
+@media only screen and (max-width:600px){
+    form{
+       width: 12rem;
+    }
+    
+}
+
+
+@media only screen and (max-width:600px){
+#employee-detail{
+    width: 1px;
+    font-size: 6px;
+}
+}
+

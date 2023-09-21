@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div style="text-align: center; font-size:25px;">Employee Details</div>
+    <table class="table">
+        <tr class="main">
+            <td>
+            <form  autocomplete="off">
+                <div>
+                    <label for="name">Enter Employee Name </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="job">Name Of The Role</label>
+                    <input type="text" name="job" id="job">
+                </div>
+                <div>
+                    <label for="lol">Location</label>
+                    <input type="text" name="lol" id="location">
+                </div>
+                <div>
+                    <label for="salary">Salary</label>
+                    <input type="text" name="name" id="salary">
+                </div>
+                <div>
+                    <label for="skill">Skill</label>
+                    <input type="text" name="name" id="skill">
+                </div>
+                <div id="btn">
+                    <input type="button" value="submit" id="submit">
+                    <!-- <button id="submit">Submit</button> -->
+                </div>
+            </form>
+        </td>
+        
+        <td>
+            <table id="employee-detail"  >
+                <thead >
+                    <tr id="sec">
+                    <td>Name</td>
+                    <td>Role</td>
+                    <td>Location</td>
+                    <td>Salary</td>
+                    <td>Skill</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+               
+            </table>
+        </td>
+    </tr>
+    </table>
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
